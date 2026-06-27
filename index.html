@@ -113,7 +113,7 @@
   .card .top{position:relative;background:linear-gradient(150deg,var(--blue),var(--green));color:#fff;padding:22px 22px 20px}
   .card .num{position:absolute;top:-1px;left:18px;background:#fff;color:var(--blue-deep);font-family:"Yuji Syuku",serif;width:34px;height:34px;display:flex;align-items:center;justify-content:center;border-radius:0 0 10px 10px;font-size:1.05rem;box-shadow:0 3px 8px rgba(0,0,0,.12)}
   .card .cat{font-family:"Yomogi",cursive;font-size:.82rem;letter-spacing:.06em;color:#EAFBF5;margin:14px 0 6px}
-  .card h3{font-family:"Yuji Syuku",serif;font-weight:400;font-size:1.45rem;line-height:1.3}
+  .card h3{font-family:"Yuji Syuku",serif;font-weight:400;font-size:1.45rem;line-height:1.3;margin-top:6px;padding-right:66px}
   .card .rating{position:absolute;top:16px;right:18px;text-align:center;background:rgba(255,255,255,.2);border-radius:12px;padding:6px 10px}
   .card .rating b{font-family:"Yuji Syuku",serif;font-size:1.2rem;display:block;line-height:1}
   .card .rating small{font-size:.66rem;opacity:.9}
@@ -212,7 +212,7 @@ const SHOPS = [
   <section class="intro" id="intro">
     <p class="kicker">島の食文化</p>
     <h2>ほんのり甘い、ふわっふわの衣。</h2>
-    <p>石垣の天ぷらは、本土のそれとは少し違います。衣はほんのり甘く、ふわっとやわらかい。芯と呼ばれる具材には、島で揚がった魚やイカが使われます。注文を受けてから揚げてくれるお店も多く、紙袋いっぱいの揚げたては、ホテルやビーチへの持ち帰りにぴったり。漁師の奥さんが営む「○○鮮魚店」は、この島ならではの風景です。新鮮なお刺身と、揚げたての天ぷら——そのどちらも、はっとするほど美味しいのが石垣の鮮魚店です。</p>
+    <p>石垣島の天ぷらは、本土のそれとは少し違います。衣はほんのり甘く、ふわっとやわらかい。芯と呼ばれる具材には、島で揚がった魚やイカが使われます。注文を受けてから揚げてくれるお店も多く、紙袋いっぱいの揚げたては、ホテルやビーチへの持ち帰りにぴったり。漁師の奥さんが営む「○○鮮魚店」は、この島ならではの風景です。新鮮なお刺身と、揚げたての天ぷら——そのどちらも、はっとするほど美味しいのが石垣島の鮮魚店です。</p>
     <div class="facts">
       <div class="fact"><div class="n">¥500〜</div><div class="l">天ぷらは「○円分」で注文</div></div>
       <div class="fact"><div class="n">23</div><div class="l">持ち帰りできる厳選店</div></div>
@@ -242,7 +242,7 @@ const SHOPS = [
     <div class="grid">
 
       <article class="card">
-        <div class="top"><span class="num">1</span><div class="rating"><b>—</b><small>評価なし</small></div><p class="cat">鮮魚・惣菜（宮良）</p><h3>いん家〜</h3></div>
+        <div class="top"><span class="num">1</span><div class="rating"><b>—</b><small>評価なし</small></div><h3>いん家〜</h3></div>
         <div class="body">
           <p class="desc">市街地から東へ、宮良集落にある持ち帰りのお店。新鮮なお刺身やお惣菜が並ぶ地元の一軒で、営業は夕方から。市街地巡りから少し足を延ばした、東エリアで立ち寄れます。</p>
           <span class="tag">市街地の東・宮良</span>
@@ -255,7 +255,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">2</span><div class="rating"><b>4.2</b><small>26件</small></div><p class="cat">天ぷら屋</p><h3>天ぷら屋</h3></div>
+        <div class="top"><span class="num">2</span><div class="rating"><b>4.2</b><small>26件</small></div><h3>天ぷら屋</h3></div>
         <div class="body">
           <p class="desc">真栄里にあるコンテナの天ぷら屋。16時の開店と同時に揚げ始めるので、いつでも揚げたて。魚・イカ・野菜から選べて、7個350円・13個550円とお手頃。マグロ刺身やオリオンビールも。本土の人にも食べやすい、あっさりめの衣。</p>
           <span class="tag">7個 ¥350 / 13個 ¥550</span>
@@ -268,7 +268,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">3</span><div class="rating"><b>4.3</b><small>81件</small></div><p class="cat">鮮魚店</p><h3>よしみ鮮魚店</h3></div>
+        <div class="top"><span class="num">3</span><div class="rating"><b>4.3</b><small>81件</small></div><h3>よしみ鮮魚店</h3></div>
         <div class="body">
           <p class="desc">登野城の住宅街にある人気店。マグロの赤身・中トロの質に定評があり、名物のネギトロやマグロユッケは売り切れ必至。揚げたての天ぷらも美味。常連でにぎわう、わざわざ行く価値のある一軒。</p>
           <span class="tag">名物 ネギトロ・ユッケ</span>
@@ -281,7 +281,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">4</span><div class="rating"><b>3.7</b><small>3件</small></div><p class="cat">鮮魚店</p><h3>よへな鮮魚店</h3></div>
+        <div class="top"><span class="num">4</span><div class="rating"><b>3.7</b><small>3件</small></div><h3>よへな鮮魚店</h3></div>
         <div class="body">
           <p class="desc">登野城のさしみ・天ぷら店。名物のマグロ天ぷらは10個200円という驚きの安さで、揚げたてはサクサクで美味。地元で長く愛され、「ここで魚の天ぷらの作り方を覚えた」という人もいるほどの一軒。</p>
           <span class="tag">マグロ天ぷら 10個 ¥200</span>
@@ -294,7 +294,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">5</span><div class="rating"><b>4.1</b><small>11件</small></div><p class="cat">鮮魚店</p><h3>玉城和さしみ店</h3></div>
+        <div class="top"><span class="num">5</span><div class="rating"><b>4.1</b><small>11件</small></div><h3>玉城和さしみ店</h3></div>
         <div class="body">
           <p class="desc">カネヒデ向かいの幹線道路沿いにある鮮魚店。マグロや島魚、ネギトロのほか、ここでしか手に入りにくい夜光貝も扱う。新鮮なマグロやあぶりが好評で、ホテルでの一杯にぴったり。駐車場あり。営業日が変わるので電話確認が安心。</p>
           <span class="tag">珍しい夜光貝も</span>
@@ -307,7 +307,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">6</span><div class="rating"><b>4.5</b><small>639件</small></div><p class="cat">水産直売の鮮魚店</p><h3>石垣島水産直売所</h3></div>
+        <div class="top"><span class="num">6</span><div class="rating"><b>4.5</b><small>639件</small></div><h3>石垣島水産直売所</h3></div>
         <div class="body">
           <p class="desc">地元の漁協が営む直売所だから、鮮度はお墨付き。刺身や海鮮丼が手頃に手に入り、マグロのほか白身魚やサーモンも揃う。揚げたての魚天ぷらも人気で、安心して選べる一軒。数席の飲食スペースあり。</p>
           <span class="tag">漁協直営で安心</span>
@@ -320,7 +320,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">7</span><div class="rating"><b>5.0</b><small>8件</small></div><p class="cat">鮮魚店・天ぷら</p><h3>八島のさかな家</h3></div>
+        <div class="top"><span class="num">7</span><div class="rating"><b>5.0</b><small>8件</small></div><h3>八島のさかな家</h3></div>
         <div class="body">
           <p class="desc">八島町にある家庭的なお店。マグロ刺身は500円で約20切れとたっぷり、オリジナルの味付けマグロスティック（揚げ）が名物。刺身は300円〜、天ぷらは魚・野菜のミックスを少量から選べる。魚がない日は休みなので予約が安心。</p>
           <span class="tag">名物 マグロスティック</span>
@@ -333,7 +333,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">8</span><div class="rating"><b>4.3</b><small>19件</small></div><p class="cat">鮮魚店</p><h3>砂川さしみ店</h3></div>
+        <div class="top"><span class="num">8</span><div class="rating"><b>4.3</b><small>19件</small></div><h3>砂川さしみ店</h3></div>
         <div class="body">
           <p class="desc">看板娘の女将さんが迎えてくれる、地元で愛される島の鮮魚店。最近始めた魚天ぷらは、サクサクふわふわの衣にだしの風味が効いて評判。マグロの刺身もパックいっぱいで500円とお手頃。</p>
           <span class="tag">サクふわ衣の天ぷら</span>
@@ -346,7 +346,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">9</span><div class="rating"><b>4.9</b><small>11件</small></div><p class="cat">鮮魚店</p><h3>吉本鮮魚店</h3></div>
+        <div class="top"><span class="num">9</span><div class="rating"><b>4.9</b><small>11件</small></div><h3>吉本鮮魚店</h3></div>
         <div class="body">
           <p class="desc">名物の味付けもずくが評判で、三杯酢の塩梅が絶妙。きつすぎず、もずく本来の旨みが引き立つと評判で、お土産にも人気。刺身も扱い、居酒屋にも卸す確かな品。スタッフがとても親切なのも嬉しい。</p>
           <span class="tag">名物 味付けもずく</span>
@@ -359,7 +359,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">10</span><div class="rating"><b>4.1</b><small>31件</small></div><p class="cat">鮮魚店</p><h3>島さしみ店</h3></div>
+        <div class="top"><span class="num">10</span><div class="rating"><b>4.1</b><small>31件</small></div><h3>島さしみ店</h3></div>
         <div class="body">
           <p class="desc">地元の常連でにぎわう、昔ながらの鮮魚店。15時頃から揚げ始める魚天ぷらは衣が評判で、紙袋いっぱいで500円。マグロや島魚の刺身も手頃。クルマで天ぷらを待つ人の列が目印。</p>
           <span class="tag">天ぷら ¥500 紙袋いっぱい</span>
@@ -372,7 +372,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">11</span><div class="rating"><b>4.8</b><small>10件</small></div><p class="cat">鮮魚店（持ち帰り専門）</p><h3>さかな屋ぎょぎょ</h3></div>
+        <div class="top"><span class="num">11</span><div class="rating"><b>4.8</b><small>10件</small></div><h3>さかな屋ぎょぎょ</h3></div>
         <div class="body">
           <p class="desc">泳ぐ魚を描いたのれんが目印の、テイクアウト専門の鮮魚店。マグロ刺身は500円で2段重ねとボリューム満点。揚げ魚やもずくも揃い、鮮度と良心的な価格で地元客にも人気。会計は現金のみ。</p>
           <span class="tag">マグロ刺身 ¥500（2段）</span>
@@ -385,7 +385,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">12</span><div class="rating"><b>4.4</b><small>161件</small></div><p class="cat">鮮魚店</p><h3>さしみ屋 十二銭</h3></div>
+        <div class="top"><span class="num">12</span><div class="rating"><b>4.4</b><small>161件</small></div><h3>さしみ屋 十二銭</h3></div>
         <div class="body">
           <p class="desc">ユーグレナモールから徒歩数分。「天ぷら○円分ください」と頼むと、注文を受けてから揚げてくれる昔ながらの鮮魚店。目の前でマグロをさばくことも。刺身も天ぷらもお手頃。</p>
           <span class="tag">天ぷら ¥300〜</span>
@@ -398,7 +398,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">13</span><div class="rating"><b>3.6</b><small>260件</small></div><p class="cat">鮮魚店・港そば</p><h3>マルハ鮮魚</h3></div>
+        <div class="top"><span class="num">13</span><div class="rating"><b>3.6</b><small>260件</small></div><h3>マルハ鮮魚</h3></div>
         <div class="body">
           <p class="desc">フェリーターミナルのすぐ横。揚げたての魚天ぷらや刺身を買って、港を眺めながらいただける。屋外のテーブルから見える景色は格別で、生ビールも。島時間を味わいたいときに。</p>
           <span class="tag">港ビューで一杯</span>
@@ -411,7 +411,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">14</span><div class="rating"><b>4.5</b><small>68件</small></div><p class="cat">マグロ直売所</p><h3>ヤエスイ直売所</h3></div>
+        <div class="top"><span class="num">14</span><div class="rating"><b>4.5</b><small>68件</small></div><h3>ヤエスイ直売所</h3></div>
         <div class="body">
           <p class="desc">現役のマグロ漁師が営む直売所。店先の巨大マグロのオブジェが目印で、解体の様子も見られる。本マグロが驚くほどお手頃で、刺身好きにはたまらない一軒。隣のスーパーでご飯も買える。</p>
           <span class="tag">本マグロ直送</span>
@@ -424,7 +424,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">15</span><div class="rating"><b>3.0</b><small>5件</small></div><p class="cat">鮮魚店</p><h3>金城鮮魚店</h3></div>
+        <div class="top"><span class="num">15</span><div class="rating"><b>3.0</b><small>5件</small></div><h3>金城鮮魚店</h3></div>
         <div class="body">
           <p class="desc">新川エリアの昔ながらの鮮魚店。マグロなどを扱う、地元密着の一軒。営業日が読みにくいとの声もあるので、訪れるなら開いていたらラッキーくらいの気持ちで覗いてみるのがおすすめ。</p>
           <span class="tag">地元の鮮魚店</span>
@@ -437,7 +437,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">16</span><div class="rating"><b>4.4</b><small>17件</small></div><p class="cat">鮮魚店</p><h3>まるひろ鮮魚店</h3></div>
+        <div class="top"><span class="num">16</span><div class="rating"><b>4.4</b><small>17件</small></div><h3>まるひろ鮮魚店</h3></div>
         <div class="body">
           <p class="desc">新栄町の人気店。天ぷらは14時頃から1袋500円で、衣は厚めで一つひとつ大きめ。揚げたてを持ち帰ってビールと合わせるのが地元流。刺身の美しさにもファンが多く、「ここの刺身しか食べない」という常連も。</p>
           <span class="tag">天ぷら ¥500／袋</span>
@@ -450,7 +450,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">17</span><div class="rating"><b>4.5</b><small>13件</small></div><p class="cat">鮮魚店</p><h3>さしみ屋 普久原</h3></div>
+        <div class="top"><span class="num">17</span><div class="rating"><b>4.5</b><small>13件</small></div><h3>さしみ屋 普久原</h3></div>
         <div class="body">
           <p class="desc">住宅街にひっそりとある小さなお店。気さくな女将さんが切り盛りし、500円の盛り合わせはボリュームたっぷり。コスパの良さは島でも指折りで、ホテルでの晩酌のお供にぴったり。</p>
           <span class="tag">盛り合わせ ¥500</span>
@@ -463,7 +463,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">18</span><div class="rating"><b>4.3</b><small>4件</small></div><p class="cat">鮮魚店</p><h3>上原鮮魚店</h3></div>
+        <div class="top"><span class="num">18</span><div class="rating"><b>4.3</b><small>4件</small></div><h3>上原鮮魚店</h3></div>
         <div class="body">
           <p class="desc">衣がふわっと甘い、小ぶりの天ぷらが評判の鮮魚店。刺身も美味で、地元に根づいた一軒。開いていない日もあり「何度目かでやっと買えた」という声も。出会えたらラッキーくらいの気持ちで立ち寄りたい。</p>
           <span class="tag">ふわ甘の天ぷら</span>
@@ -476,7 +476,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">19</span><div class="rating"><b>3.9</b><small>14件</small></div><p class="cat">漁船直営の鮮魚店</p><h3>みちたけ丸</h3></div>
+        <div class="top"><span class="num">19</span><div class="rating"><b>3.9</b><small>14件</small></div><h3>みちたけ丸</h3></div>
         <div class="body">
           <p class="desc">漁船「みちたけ丸」直営の、できて数年の新しめの鮮魚店。店内がきれいで、300円でも刺身がたっぷり。気さくな女将さんが魚の入荷状況を教えてくれる。船が漁に出ているときは不定休になることも。</p>
           <span class="tag">¥300〜 刺身たっぷり</span>
@@ -489,7 +489,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">20</span><div class="rating"><b>4.4</b><small>51件</small></div><p class="cat">鮮魚店</p><h3>仲田鮮魚店</h3></div>
+        <div class="top"><span class="num">20</span><div class="rating"><b>4.4</b><small>51件</small></div><h3>仲田鮮魚店</h3></div>
         <div class="body">
           <p class="desc">マグロ専門の人気店。本マグロが入る日は30人を超える行列ができることも。赤身・ネギトロ・中トロにぎりが驚くほど安い。揚げたての天ぷらも美味で、カード払いにも対応。営業は不定なので開いていればラッキー。</p>
           <span class="tag">本マグロに行列</span>
@@ -502,7 +502,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">21</span><div class="rating"><b>4.5</b><small>33件</small></div><p class="cat">鮮魚店</p><h3>お魚市場 はるみ鮮魚</h3></div>
+        <div class="top"><span class="num">21</span><div class="rating"><b>4.5</b><small>33件</small></div><h3>お魚市場 はるみ鮮魚</h3></div>
         <div class="body">
           <p class="desc">マックスバリュ新川店の向かいにある鮮魚店。マグロ専門の近隣店とは対照的に、ミーバイやマンビカーなど島魚の品揃えが豊富。500円で大きな白身が10個ほど入る魚天ぷらも評判。荒天の日は休み。</p>
           <span class="tag">島魚の品揃えが豊富</span>
@@ -515,7 +515,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">22</span><div class="rating"><b>4.2</b><small>10件</small></div><p class="cat">源丸 直営の惣菜・天ぷら店</p><h3>源丸直営店</h3></div>
+        <div class="top"><span class="num">22</span><div class="rating"><b>4.2</b><small>10件</small></div><h3>源丸直営店</h3></div>
         <div class="body">
           <p class="desc">漁船「源丸」の直営店。名物の揚げたて天ぷらは、500円で魚・イカが約20個とボリューム満点で、一人では食べきれないほど。刺身や寿司に加え、からあげ・煮物・もずくなどの惣菜も安く揃う、地元御用達のお店。</p>
           <span class="tag">天ぷら ¥500（約20個）</span>
@@ -528,7 +528,7 @@ const SHOPS = [
       </article>
 
       <article class="card">
-        <div class="top"><span class="num">23</span><div class="rating"><b>4.1</b><small>15件</small></div><p class="cat">鮮魚店</p><h3>崎原さしみ店</h3></div>
+        <div class="top"><span class="num">23</span><div class="rating"><b>4.1</b><small>15件</small></div><h3>崎原さしみ店</h3></div>
         <div class="body">
           <p class="desc">新川エリアの住宅街にある、地元密着の鮮魚店。500円で新鮮なマグロ赤身がたっぷり、白身のフライは8個で300円と良心的。観光客にはわさびや醤油を付けてくれることも。営業日が少なめなので、開いていたら迷わず立ち寄りたい一軒。</p>
           <span class="tag">マグロ赤身 ¥500</span>
@@ -577,7 +577,6 @@ const SHOPS = [
     });
     var href = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(s.q);
     var html = '<div class="pop">' +
-      '<div class="pc">' + s.cat + '</div>' +
       '<h4>' + s.n + '. ' + s.name + '</h4>' +
       (s.feat ? '<span class="pf">' + s.feat + '</span><br>' : '') +
       '<div class="ph">🕒 ' + s.hours + '</div>' +
